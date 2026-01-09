@@ -1,14 +1,14 @@
 {
-  "name": "cy-AppActions-M22-Exercicio",
+  "name": "cy-appactions-m22-exercicio",
   "version": "1.0.0",
   "description": "PageActions-M22-Exercício",
-  "homepage": "https://github.com/cleberdevfull/M22-A2_cy_PgObjects_Ebac#readme",
+  "homepage": "https://github.com/cleberdevfull/qa-advanced-practices-ebac.git#readme",
   "bugs": {
-    "url": "https://github.com/cleberdevfull/M22-A2_cy_PgObjects_Ebac/issues"
+    "url": "https://github.com/cleberdevfull/qa-advanced-practices-ebac.git/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cleberdevfull/M22-A2_cy_PgObjects_Ebac.git"
+    "url": "git+https://github.com/cleberdevfull/qa-advanced-practices-ebac.git"
   },
   "license": "ISC",
   "author": "CleberQAE",
