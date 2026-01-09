@@ -1,7 +1,7 @@
 {
-  "name": "cy-appactions-m22-exercicio",
+  "name": "cy-pageobjects",
   "version": "1.0.0",
-  "description": "PageActions-M22-Exercício",
+  "description": "PageObjects-M22-Exercício",
   "homepage": "https://github.com/cleberdevfull/qa-advanced-practices-ebac.git#readme",
   "bugs": {
     "url": "https://github.com/cleberdevfull/qa-advanced-practices-ebac.git/issues"
