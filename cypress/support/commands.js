@@ -36,6 +36,54 @@ Cypress.Commands.add('Login', (email, password) => {
 
 });
 
+
+// intercept exercices
+Cypress.Commands.add('interceptSearchItem_1', () => {
+  cy.intercept('GET', '**public/getProducts?sortBy=popularity&search=celular', { fixture: 'interceptProduct.json' }).as('Product: celular');
+  cy.get('[data-testid="search-products"]').click();
+  cy.get('[data-testid="searchInput"]').type('celular');
+  cy.wait(2000);
+  cy.get('[data-testid="productDetails"]').contains('celular').click({ force: true });
+  cy.get('[data-testid="addToCart"]').contains('Add To Cart').click();
+  cy.get('[href="/Tab/Home"] > .r-g6644c').click();
+
+});
+
+Cypress.Commands.add('interceptSearchItem_2', () => {
+  cy.intercept('GET', '**public/getProducts?sortBy=popularity&search=lapis', { fixture: 'interceptProduct.json' }).as('Product: lapis');
+  cy.get('[data-testid="search-products"]').click();
+  cy.get('[data-testid="searchInput"]').type('lapis');
+  cy.wait(2000);
+  cy.get('[data-testid="productDetails"]').contains('lapis').click({ force: true });
+  cy.get('[data-testid="addToCart"]').contains('Add To Cart').click();
+});
+
+Cypress.Commands.add('interceptCart', (state = 'initial') => {
+  cy.fixture('InterceptCartProdutcs.json').then((data) => {
+    cy.intercept('GET', '**/public/getCart?userId=69529597bebd10a47fb23ae8', data[state]).as('Access Cart');
+  });
+});
+
+Cypress.Commands.add('interceptCartAddQuantity', () => {
+  cy.intercept('PUT', '**/public/updateCart/69529597bebd10a47fb23ae8', { success: true, message: 'cart updated' }).as('Update Cart  - Add');
+});
+
+Cypress.Commands.add('interceptCartRemoveQuantity', () => {
+  cy.intercept('PUT', '**/public/updateCart/69529597bebd10a47fb23ae8', { success: true, message: 'cart updated' }).as('Update Cart  - Remove');
+});
+
+
+
+// intercept commands from course
+Cypress.Commands.add('openCategories', () => {
+  return cy.get('[data-testid="Category"] > .r-lrvibr').click();
+});
+
+Cypress.Commands.add('categories', () => {
+  return cy.get('[data-testid^="search-category-"]');
+});
+
+
 Cypress.Commands.add('searchItemPage', () => {
   cy.get('[data-testid="search-products"]').click();
   cy.get('[data-testid="searchInput"]').type('lapis');
