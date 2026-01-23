@@ -1,0 +1,141 @@
+{
+    "intial": {
+        "success": true,
+        "cart": {
+            "_id": "696ec1e0cf2982c026c798b3",
+            "products": [
+                {
+                    "productId": {
+                        "_id": "68eda3ca14fac84fe1b526d4",
+                        "photos": [],
+                        "name": "celular",
+                        "price": 15000,
+                        "quantity": 200,
+                        "specialPrice": 15000
+                    },
+                    "quantity": 10,
+                    "_id": "696fc7a4aa3ae7fc3998c1da"
+                },
+                {
+                    "productId": {
+                        "_id": "6941b1836a9a40875825fd59",
+                        "photos": ["encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSooe8ZT7JQ59s-RgAzua8lBt3L_iRyix9uzw&s"],
+                        "name": "lapis",
+                        "price": 15,
+                        "quantity": 5,
+                        "specialPrice": 15
+                    },
+                    "quantity": 5,
+                    "_id": "696fc7abaa3ae7fc3998c1f5"
+                }
+            ],
+            "userId": "69529597bebd10a47fb23ae8",
+            "createdAt": "2026-01-19T23:44:32.426Z",
+            "updatedAt": "2026-01-20T18:33:04.857Z",
+            "__v": 0
+        }
+    },
+
+
+    "addQuantity": {
+        "success": true,
+        "cart": {
+            "_id": "696ec1e0cf2982c026c798b3",
+            "products": [
+                {
+                    "productId": {
+                        "_id": "68eda3ca14fac84fe1b526d4",
+                        "photos": [],
+                        "name": "celular",
+                        "price": 15000,
+                        "quantity": 200,
+                        "specialPrice": 15000
+                    },
+                    "quantity": 1,
+                    "_id": "696fc7a4aa3ae7fc3998c1da"
+                },
+                {
+                    "productId": {
+                        "_id": "6941b1836a9a40875825fd59",
+                        "photos": ["encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSooe8ZT7JQ59s-RgAzua8lBt3L_iRyix9uzw&s"],
+                        "name": "lapis",
+                        "price": 15,
+                        "quantity": 5,
+                        "specialPrice": 15
+                    },
+                    "quantity": 1,
+                    "_id": "696fc7abaa3ae7fc3998c1f5"
+                }
+            ],
+            "userId": "69529597bebd10a47fb23ae8",
+            "createdAt": "2026-01-19T23:44:32.426Z",
+            "updatedAt": "2026-01-20T18:33:04.857Z",
+            "__v": 0
+        }
+    },
+
+
+    "removeQuantity": {
+        "success": true,
+        "cart": {
+            "_id": "696ec1e0cf2982c026c798b3",
+            "products": [
+                {
+                    "productId": {
+                        "_id": "68eda3ca14fac84fe1b526d4",
+                        "photos": [],
+                        "name": "celular",
+                        "price": 15000,
+                        "quantity": 200,
+                        "specialPrice": 15000
+                    },
+                    "quantity": 1,
+                    "_id": "696fc7a4aa3ae7fc3998c1da"
+                },
+                {
+                    "productId": {
+                        "_id": "6941b1836a9a40875825fd59",
+                        "photos": ["encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSooe8ZT7JQ59s-RgAzua8lBt3L_iRyix9uzw&s"],
+                        "name": "lapis",
+                        "price": 15,
+                        "quantity": 5,
+                        "specialPrice": 15
+                    },
+                    "quantity": 1,
+                    "_id": "696fc7abaa3ae7fc3998c1f5"
+                }
+            ],
+            "userId": "69529597bebd10a47fb23ae8",
+            "createdAt": "2026-01-19T23:44:32.426Z",
+            "updatedAt": "2026-01-20T18:33:04.857Z",
+            "__v": 0
+        }
+    },
+
+
+
+    "deleteItem": {
+        "success": true,
+        "cart": {
+            "_id": "696ec1e0cf2982c026c798b3",
+            "products": [
+                {
+                    "productId": {
+                        "_id": "68eda3ca14fac84fe1b526d4",
+                        "photos": [],
+                        "name": "celular",
+                        "price": 15000,
+                        "quantity": 200,
+                        "specialPrice": 15000
+                    },
+                    "quantity": 2,
+                    "_id": "696fc7a4aa3ae7fc3998c1da"
+                }
+            ],
+            "userId": "69529597bebd10a47fb23ae8",
+            "createdAt": "2026-01-19T23:44:32.426Z",
+            "updatedAt": "2026-01-20T18:33:04.857Z",
+            "__v": 0
+        }
+    }
+}

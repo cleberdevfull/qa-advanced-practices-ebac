@@ -1,0 +1,102 @@
+{
+    "success": true,
+    "products": [
+       
+         {
+            "_id": "694174096a9a40875825fd4e",
+            "categories": [],
+            "photos": ["fogodjfojfpdsjf"],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "lapisão",
+            "price": 15,
+            "quantity": 10,
+            "description": "azul",
+            "specialPrice": 15,
+            "createdAt": "2025-12-16T15:00:25.401Z",
+            "updatedAt": "2025-12-16T15:00:25.401Z",
+            "__v": 0
+        },
+        {
+            "_id": "694174686a9a40875825fd50",
+            "categories": [],
+            "photos": ["encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIFjrBqj1iMWuPQ8NygMolDDug78TxHE_nVw&s"],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "lapis",
+            "price": 15,
+            "quantity": 10,
+            "description": "verde",
+            "specialPrice": 15,
+            "createdAt": "2025-12-16T15:02:00.442Z",
+            "updatedAt": "2025-12-16T15:13:54.797Z",
+            "__v": 0
+        }, 
+        {
+            "_id": "6941b1836a9a40875825fd59",
+            "categories": [],
+            "photos": ["encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSooe8ZT7JQ59s-RgAzua8lBt3L_iRyix9uzw&s"],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "lapis",
+            "price": 15,
+            "quantity": 5,
+            "description": "azul escuro",
+            "specialPrice": 15,
+            "createdAt": "2025-12-16T19:22:43.158Z",
+            "updatedAt": "2026-01-19T20:00:37.851Z",
+            "__v": 0
+        },
+        
+        {
+            "_id": "68eda3ca14fac84fe1b526d4",
+            "categories": [],
+            "photos": [],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "celular",
+            "price": 15000,
+            "quantity": 200,
+            "description": "iphone",
+            "specialPrice": 15000,
+            "createdAt": "2025-10-14T01:13:46.643Z",
+            "updatedAt": "2025-10-14T01:13:46.643Z",
+            "__v": 0
+        },
+        {   "_id": "67ec3e678bb5e25d3b2741f4",
+            "categories": [],
+            "photos": ["https://picsum.photos/seed/i096mlLC0/395/1392?blur=5"],
+            "visible": true,
+            "additionalDetails": [],
+            "name": "Luxurious Ceramic Sausages",
+            "price": 186.45224850710485,
+            "quantity": 3,
+            "description": "Kessler - Nolan's most advanced Towels technology increases acidic capabilities",
+            "popular": true,
+            "location": "East Lucaston",
+            "specialPrice": 148.60421397942383,
+            "createdAt": "2025-10-29T20:15:57.700Z",
+            "updatedAt": "2025-10-29T20:15:57.700Z",
+            "__v": 0
+        },
+
+        {
+        "_id": "67c8d8619fccb188a86582aa",
+        "categories": [],
+        "photos": ["https://exemplo.com/camiseta-bonita.jpg"],
+        "visible": true,
+        "additionalDetails": [],
+        "name": "Camiseta EBAC",
+        "price": 159.99,
+        "quantity": 33,
+        "description": "Camiseta 100% algodão",
+        "popular": true,
+        "specialPrice": 159.99,
+        "createdAt": "2025-03-05T23:04:01.938Z",
+        "updatedAt": "2025-12-27T19:48:05.335Z",
+        "__v": 0
+    }
+
+    ],
+    "totalProduct": 6
+}
